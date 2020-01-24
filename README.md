@@ -13,3 +13,12 @@ Pick any API, could be one of your past projects, and deploy it to `heroku`. Onc
 ## Stretch Goal
 
 - add support for environment variables using `.env` files. You can use the [dotenv](https://www.npmjs.com/package/dotenv) npm module.
+
+
+### BASE URL: https://lw-lotr-user-list.herokuapp.com/ 
+
+| request | endpoint             | description                   |
+|---------|----------------------|-------------------------------|
+|   GET   | /api/users/          | returns all users             |
+|   GET   | /api/users/:id       | returns specific user         |
+|   GET   | /api/users/:id/posts | returns specific user's posts |
