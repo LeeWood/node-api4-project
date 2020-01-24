@@ -17,8 +17,13 @@ Pick any API, could be one of your past projects, and deploy it to `heroku`. Onc
 
 ### BASE URL: https://lw-lotr-user-list.herokuapp.com/ 
 
-| request | endpoint             | description                   |
-|---------|----------------------|-------------------------------|
-|   GET   | /api/users/          | returns all users             |
-|   GET   | /api/users/:id       | returns specific user         |
-|   GET   | /api/users/:id/posts | returns specific user's posts |
+| request | endpoint             | description                                     |
+|---------|----------------------|-------------------------------------------------|
+|   GET   | /api/users/          | returns all users                               |
+|   GET   | /api/users/:id       | returns specific user                           |
+|   GET   | /api/users/:id/posts | returns specific user's posts                   |
+|   POST  | /api/users/          | creates a new user, needs "name" key/val pair   |
+|   POST  | /api/users/:id/posts | creates a new post, needs "text" key/val pair   |
+|   PUT   | /api/users/:id       | edtits existing user, needs "name" key/val pair |
+|  DELETE | /api/users/:id       | deletes existing user                           |
+
